@@ -44,3 +44,9 @@ header.top {
     border-radius: 50%;
   }
 }
+
+@media (max-width: 768px) {
+  header.top {
+    max-width: 22.5rem;
+  }
+}

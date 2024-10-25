@@ -92,3 +92,16 @@ footer {
     }
   }
 }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 2rem;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: start;
+
+    nav {
+      flex-direction: column;
+    }
+  }
+}
